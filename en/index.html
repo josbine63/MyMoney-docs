@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMoney - Documentation</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">💰</span>
+                <span>MyMoney</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#guide">Guide</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-lang">
+                <a href="../index.html">FR</a>
+                <span>|</span>
+                <a href="index.html" class="active">EN</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>MyMoney</h1>
+            <p class="hero-subtitle">Manage your investments with ease</p>
+            <p class="hero-description">
+                iOS and macOS application to track your stock portfolio,
+                cash positions and other investments in real time.
+            </p>
+            <div class="hero-badges">
+                <span class="badge">iOS</span>
+                <span class="badge">macOS</span>
+                <span class="badge">iCloud Sync</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="section">
+            <div class="container">
+                <h2>Features</h2>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Portfolio Tracking</h3>
+                        <p>Track your stocks, ETFs and funds with real-time prices via Yahoo Finance.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">💵</div>
+                        <h3>Cash Management</h3>
+                        <p>Keep an eye on your cash accounts and their evolution.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🏦</div>
+                        <h3>Other Investments</h3>
+                        <p>Manage your external investments like Desjardins funds with CSV import.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">👁️</div>
+                        <h3>Watchlist</h3>
+                        <p>Watch securities you're interested in before investing.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Historical Charts</h3>
+                        <p>Visualize price evolution from 1 month to 5 years.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">📸</div>
+                        <h3>Daily Snapshots</h3>
+                        <p>Automatic daily backup of your portfolio state.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">💳</div>
+                        <h3>Fee Tracking</h3>
+                        <p>Record your management, acquisition and sale fees.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Transactions</h3>
+                        <p>Complete history of your buys and sells with CIBC import.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">☁️</div>
+                        <h3>iCloud Sync</h3>
+                        <p>Your data automatically synced across all your devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="guide" class="section section-alt">
+            <div class="container">
+                <h2>User Guide</h2>
+
+                <div class="guide-content">
+                    <article class="guide-article">
+                        <h3>🚀 Getting Started</h3>
+                        <ol>
+                            <li>Launch the app and complete the onboarding screen</li>
+                            <li>Tap <strong>+</strong> to add your first security</li>
+                            <li>Enter the symbol (e.g., VFV.TO for TSX, AAPL for NYSE)</li>
+                            <li>Refresh prices with the refresh button</li>
+                        </ol>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>📱 Account Types</h3>
+                        <ul>
+                            <li><strong>Stocks</strong> - Listed securities with real-time prices</li>
+                            <li><strong>Cash</strong> - Savings accounts and money market funds</li>
+                            <li><strong>Other Investments</strong> - External funds (Desjardins, etc.)</li>
+                        </ul>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>📥 Importing Desjardins Funds</h3>
+                        <ol>
+                            <li>Go to <a href="https://www.fondsdesjardins.com/fonds/prix-rendements/caisses/" target="_blank">fondsdesjardins.com</a></li>
+                            <li>Change the category to <strong>K (Réseau des Caisses)</strong></li>
+                            <li>Click <strong>Filter</strong></li>
+                            <li>Download the CSV file</li>
+                            <li>In the app, open <strong>Desjardins Funds</strong> and import the CSV</li>
+                        </ol>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>👁️ Watchlist</h3>
+                        <p>The watchlist lets you track securities without owning them:</p>
+                        <ul>
+                            <li>Add securities manually or import a CSV</li>
+                            <li>Click on a security to see its historical chart</li>
+                            <li>Refresh prices in real time</li>
+                        </ul>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>📊 Portfolio History</h3>
+                        <p>The app automatically saves a snapshot of your portfolio daily when closing. Check the history to see:</p>
+                        <ul>
+                            <li>Total value evolution</li>
+                            <li>Stocks / Cash / Other breakdown</li>
+                            <li>Trends over different periods</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Where do stock prices come from?</summary>
+                        <p>Prices are fetched via the Yahoo Finance API. They are generally real-time or with a slight delay depending on the market.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I add a Canadian security?</summary>
+                        <p>Add the <strong>.TO</strong> suffix for TSX (e.g., VFV.TO) or <strong>.NE</strong> for NEO Exchange (e.g., AAPL.NE for Apple CDR).</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Is my data secure?</summary>
+                        <p>Yes, your data is stored locally and synced via your personal iCloud account. No data is sent to third-party servers.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I use the app on multiple devices?</summary>
+                        <p>Yes, with iCloud sync enabled, your data is available on all your Apple devices connected to the same account.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How are currencies handled?</summary>
+                        <p>The app supports multiple currencies (CAD, USD, EUR, etc.) and automatically converts values to CAD for the portfolio total.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>MyMoney © 2026 - Investment Tracking Application</p>
+            <p class="footer-links">
+                <a href="../index.html">Français</a> |
+                <a href="index.html">English</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

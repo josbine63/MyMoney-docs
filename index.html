@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMoney - Documentation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">💰</span>
+                <span>MyMoney</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#features">Fonctionnalités</a></li>
+                <li><a href="#guide">Guide</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-lang">
+                <a href="index.html" class="active">FR</a>
+                <span>|</span>
+                <a href="en/index.html">EN</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>MyMoney</h1>
+            <p class="hero-subtitle">Gérez vos investissements en toute simplicité</p>
+            <p class="hero-description">
+                Application iOS et macOS pour suivre votre portefeuille d'actions,
+                vos liquidités et vos autres placements en temps réel.
+            </p>
+            <div class="hero-badges">
+                <span class="badge">iOS</span>
+                <span class="badge">macOS</span>
+                <span class="badge">iCloud Sync</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="section">
+            <div class="container">
+                <h2>Fonctionnalités</h2>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Suivi du Portefeuille</h3>
+                        <p>Suivez vos actions, ETFs et fonds avec les prix en temps réel via Yahoo Finance.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">💵</div>
+                        <h3>Gestion des Liquidités</h3>
+                        <p>Gardez un œil sur vos comptes de liquidités et leur évolution.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🏦</div>
+                        <h3>Autres Placements</h3>
+                        <p>Gérez vos placements externes comme les fonds Desjardins avec import CSV.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">👁️</div>
+                        <h3>Liste de Surveillance</h3>
+                        <p>Surveillez les titres qui vous intéressent avant d'investir.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Graphiques Historiques</h3>
+                        <p>Visualisez l'évolution des prix sur 1 mois à 5 ans.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">📸</div>
+                        <h3>Snapshots Quotidiens</h3>
+                        <p>Sauvegarde automatique de l'état de votre portefeuille chaque jour.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">💳</div>
+                        <h3>Suivi des Frais</h3>
+                        <p>Enregistrez vos frais de gestion, d'acquisition et de vente.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Transactions</h3>
+                        <p>Historique complet de vos achats et ventes avec import CIBC.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">☁️</div>
+                        <h3>Synchronisation iCloud</h3>
+                        <p>Vos données synchronisées automatiquement entre tous vos appareils.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="guide" class="section section-alt">
+            <div class="container">
+                <h2>Guide d'utilisation</h2>
+
+                <div class="guide-content">
+                    <article class="guide-article">
+                        <h3>🚀 Premiers pas</h3>
+                        <ol>
+                            <li>Lancez l'application et complétez l'écran d'accueil</li>
+                            <li>Appuyez sur <strong>+</strong> pour ajouter votre premier titre</li>
+                            <li>Entrez le symbole (ex: VFV.TO pour le TSX, AAPL pour le NYSE)</li>
+                            <li>Actualisez les prix avec le bouton de rafraîchissement</li>
+                        </ol>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>📱 Types de comptes</h3>
+                        <ul>
+                            <li><strong>Actions</strong> - Titres cotés en bourse avec prix en temps réel</li>
+                            <li><strong>Liquidités</strong> - Comptes d'épargne et fonds du marché monétaire</li>
+                            <li><strong>Autres Placements</strong> - Fonds externes (Desjardins, etc.)</li>
+                        </ul>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>📥 Import des Fonds Desjardins</h3>
+                        <ol>
+                            <li>Allez sur <a href="https://www.fondsdesjardins.com/fonds/prix-rendements/caisses/" target="_blank">fondsdesjardins.com</a></li>
+                            <li>Changez la catégorie pour <strong>K (Réseau des Caisses)</strong></li>
+                            <li>Cliquez sur <strong>Filtrer</strong></li>
+                            <li>Téléchargez le fichier CSV</li>
+                            <li>Dans l'app, ouvrez <strong>Fonds Desjardins</strong> et importez le CSV</li>
+                        </ol>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>👁️ Liste de surveillance</h3>
+                        <p>La liste de surveillance vous permet de suivre des titres sans les posséder:</p>
+                        <ul>
+                            <li>Ajoutez des titres manuellement ou importez un CSV</li>
+                            <li>Cliquez sur un titre pour voir son historique graphique</li>
+                            <li>Actualisez les prix en temps réel</li>
+                        </ul>
+                    </article>
+
+                    <article class="guide-article">
+                        <h3>📊 Historique du portefeuille</h3>
+                        <p>L'application sauvegarde automatiquement un snapshot de votre portefeuille chaque jour à la fermeture. Consultez l'historique pour voir:</p>
+                        <ul>
+                            <li>L'évolution de la valeur totale</li>
+                            <li>La répartition Actions / Liquidités / Autres</li>
+                            <li>Les tendances sur différentes périodes</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container">
+                <h2>Questions fréquentes</h2>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>D'où proviennent les prix des actions?</summary>
+                        <p>Les prix sont récupérés via l'API Yahoo Finance. Ils sont généralement en temps réel ou avec un léger délai selon le marché.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Comment ajouter un titre canadien?</summary>
+                        <p>Ajoutez le suffixe <strong>.TO</strong> pour le TSX (ex: VFV.TO) ou <strong>.NE</strong> pour NEO Exchange (ex: AAPL.NE pour le CDR Apple).</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Mes données sont-elles sécurisées?</summary>
+                        <p>Oui, vos données sont stockées localement et synchronisées via votre compte iCloud personnel. Aucune donnée n'est envoyée à des serveurs tiers.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Puis-je utiliser l'app sur plusieurs appareils?</summary>
+                        <p>Oui, avec la synchronisation iCloud activée, vos données sont disponibles sur tous vos appareils Apple connectés au même compte.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Comment les devises sont-elles gérées?</summary>
+                        <p>L'application supporte plusieurs devises (CAD, USD, EUR, etc.) et convertit automatiquement les valeurs en CAD pour le total du portefeuille.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>MyMoney © 2026 - Application de suivi d'investissements</p>
+            <p class="footer-links">
+                <a href="index.html">Français</a> |
+                <a href="en/index.html">English</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
